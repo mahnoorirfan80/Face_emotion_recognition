@@ -1,0 +1,16 @@
+tensorflow
+keras
+pandas
+numpy
+jupyter
+notebook
+tqdm
+opencv-contrib-python
+$ pip install -U scikit-learn
+
+
+images                              labels
+images/angry/abc.png              angry
+images/angry/v.png                  angry
+images/sad/abc.png                sad
+images/sad/abc2.png               sad
