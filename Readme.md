@@ -9,6 +9,7 @@ Facial emotion recognition is a critical area in computer vision, aiming to inte
 ## Dataset
 
 The model is trained on the FER-2013 dataset, which contains 35,685 grayscale images of 48x48 pixels, each labeled with one of the seven emotions. The dataset is divided into training and testing subsets.
+https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
 
 ## Model Architecture
 
@@ -20,6 +21,9 @@ The CNN model comprises the following layers:
 4. **Flatten Layer**: Convert 2D matrices to a 1D vector.
 5. **Fully Connected (Dense) Layers**: Perform high-level reasoning based on the extracted features.
 6. **Output Layer**: Classifies the input into one of the seven emotion categories using a softmax activation function.
+
+Face emotion recognition model with 62% accuracy:
+https://drive.google.com/drive/folders/1xtF-XtQB4n9HjZy3r-XoyUQQxVHWSgcc
 
 ## Dependencies
 
@@ -39,7 +43,7 @@ Ensure the following libraries are installed:
 
 1. **Clone the Repository**:
 
-   git clone https://github.com/kumarvivek9088/Face_Emotion_Recognition_Machine_Learning.git
+   git clone https://github.com/mahnoorirfan80/Face_emotion_recognition.git
 
 2. **Install Required Libraries**:
 
